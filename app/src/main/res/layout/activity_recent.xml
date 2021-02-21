@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="core.pdf.RecentActivity"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorWhite"
+        android:elevation="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:subtitleTextColor="@color/colorPrimary"
+        app:titleTextColor="@color/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+
+    <core.pdf.EmptyRecyclerView
+        android:id="@+id/all_files_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/emptyView"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_face_empty"/>
+        <TextView
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oh, seem like you haven't read any pdf files yet!"/>
+    </LinearLayout>
+</LinearLayout>

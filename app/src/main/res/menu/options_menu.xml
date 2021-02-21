@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favourite"
+        android:title="Add to Favourite"
+        android:icon="@drawable/ic_star_white"/>
+
+    <item
+        android:id="@+id/sort"
+        android:title="Sort By"
+        android:icon="@drawable/ic_sort"/>
+
+    <item
+        android:id="@+id/binoculars"
+        android:title="View"
+        android:icon="@drawable/ic_binoculars"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"/>
+
+   <!-- <item
+        android:id="@+id/rename"
+        android:title="Rename File" /> -->
+
+    <item
+        android:id="@+id/remove"
+        android:icon="@drawable/ic_trash"
+        android:title="Remove" />
+
+
+</menu>

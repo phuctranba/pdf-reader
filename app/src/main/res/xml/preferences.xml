@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="@string/pref_night_mode_key"
+        android:title="@string/pref_night_mode"
+        android:summary=""
+        />
+
+    <SwitchPreference
+        android:key="@string/pref_grid_view_key"
+        android:title="@string/pref_grid_view"
+        android:summary=""
+        />
+
+    <SwitchPreference
+        android:key="@string/pref_horizontal_scroll_key"
+        android:title="@string/pref_horizontal_scroll"
+        android:summary=""
+        />
+
+    <SwitchPreference
+        android:key="@string/pref_swipe_key"
+        android:title="@string/pref_swipe"
+        android:summary=""
+        />
+
+</PreferenceScreen>

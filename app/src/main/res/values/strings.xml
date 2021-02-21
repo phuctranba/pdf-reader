@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Simple Pdf Reader</string>
+
+    <!-- Preferences -->
+    <string name="pref_night_mode_key">pref_night_mode_key</string>
+    <string name="pref_night_mode">Night Mode</string>
+    <string name="pref_grid_view_key">pref_grid_view_key</string>
+    <string name="pref_grid_view">Grid View</string>
+    <string name="pref_horizontal_scroll_key">pref_horizontal_scroll_key</string>
+    <string name="pref_horizontal_scroll">Horizontal Scroll</string>
+    <string name="pref_swipe_key">pref_swipe_key</string>
+    <string name="pref_swipe">Swipe Page By Page</string>
+
+    <!--    Main Activity-->
+    <string name="all_file">All File</string>
+    <string name="favourite">Favourite</string>
+    <string name="recent">Recent</string>
+    <string name="setting">Setting</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="core.pdf.SettingsActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorWhite"
+        android:elevation="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:subtitleTextColor="@color/colorPrimary"
+        app:titleTextColor="@color/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight=".5"
+            android:text="@string/pref_night_mode"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/night_mode"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="40dp"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight=".5"
+            android:text="@string/pref_horizontal_scroll"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="viewStart"
+            android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/horizontal_scroll"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="40dp"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

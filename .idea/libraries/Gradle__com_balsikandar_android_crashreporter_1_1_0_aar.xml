@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.balsikandar.android:crashreporter:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a827fd75c26dc22b9ae6bc5ef9755e2a/jetified-crashreporter-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a827fd75c26dc22b9ae6bc5ef9755e2a/jetified-crashreporter-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a827fd75c26dc22b9ae6bc5ef9755e2a/jetified-crashreporter-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc6ff89de16a8f92c490b863d171e6b4/jetified-crashreporter-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc6ff89de16a8f92c490b863d171e6b4/jetified-crashreporter-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc6ff89de16a8f92c490b863d171e6b4/jetified-crashreporter-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddfd7f78d4cc9ebc65c5acd928d7afec/jetified-crashreporter-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddfd7f78d4cc9ebc65c5acd928d7afec/jetified-crashreporter-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddfd7f78d4cc9ebc65c5acd928d7afec/jetified-crashreporter-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.balsikandar.android/crashreporter/1.1.0/f86f5929d9cc49fbb9df2d9d8baf8483925f3117/crashreporter-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.balsikandar.android/crashreporter/1.1.0/dc909a44a8df2ca73990425479b9361defa0377e/crashreporter-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

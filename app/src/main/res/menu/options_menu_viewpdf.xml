@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu">
+        <menu>
+            <item
+                android:id="@+id/favourite"
+                android:title="Add to Favourite"
+                android:icon="@drawable/ic_star_white"/>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_share"/>
+        </menu>
+
+    </item>
+
+
+
+</menu>
