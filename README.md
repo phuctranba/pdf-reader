@@ -14,9 +14,9 @@ Pdf file management application
 * [SDP](https://github.com/intuit/sdp)
 
 ## Screen Shot
-| <img src="./ScreenShots/home.png" width="250"> | <img src="./ScreenShots/list.png" width="250"> | <img src="./ScreenShots/grid.png" width="250"> |
+| <img src="./ScreenShots/home_screen.png" width="250"> | <img src="./ScreenShots/pdf_list.png" width="250"> | <img src="./ScreenShots/pdf_grid.png" width="250"> |
 | - | - | - |
-| <img src="./ScreenShots/settings.png" width="250"> | <img src="./ScreenShots/light-mode.png" width="250"> | <img src="./ScreenShots/dark-mode.png" width="250"> |
+| <img src="./ScreenShots/settings_screen.png" width="250"> | <img src="./ScreenShots/light_mode.png" width="250"> | <img src="./ScreenShots/dark_mode.png" width="250"> |
 
 ## Support
 * Android 4.2 +
